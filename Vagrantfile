@@ -79,7 +79,7 @@ Vagrant.configure("2") do |config|
 	 redis-server /etc/redis/example/node3/sentinel.conf --sentinel
    SHELL
 
-config.vm.post_up_message = "Redis Master port = 6380, Redis Slave 1 port = 6281, Redis Slave 2 port = 6282"
+config.vm.post_up_message = "VM Host IP = 192.168.33.10, Redis Master port = 6380, Redis Slave 1 port = 6281, Redis Slave 2 port = 6282"
 
 end
 
